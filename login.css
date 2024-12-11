@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --lightwhite:#f5f8fa;
+    --dgray: #5e6278;
+    --fgray: #e3e3e3
+}
+
+body{
+    font-size: 14px;
+}
+
+.wrapper{
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment:fixed ;
+    background-position: bottom center;
+    min-height: 100%;
+}
+
+.wrapper .logo img{
+    max-width: 40%;
+}
+
+.wrapper input{
+    background-color:  var(--lightwhite);
+    border-color:  var(--lightwhite);
+    color: var(--dgray); 
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+
+.wrapper .submit-btn{
+    padding: 15px;
+    font-weight: 500;
+}
+
+.wrapper .login-with{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px;
+}
+
+.wrapper .login-with img{
+    max-width: 8%;
+}
